@@ -44,11 +44,28 @@ Los artículos están organizados por categorías temáticas. Cada categoría ti
 
 Todos los artículos deben ser creados como archivos Markdown (`.md`). El nombre del archivo debe ser descriptivo y utilizar guiones bajos para separar palabras (ejemplo: `guerra_fria.md`, `reino_unido.md`).
 
-### 2. Estructura del Artículo
+### 2. Metadatos del Artículo
+
+Cada artículo debe comenzar con una sección de metadatos delimitada por tres guiones (`---`). Esta sección debe incluir:
+
+```markdown
+---
+title: "Título del Artículo"
+author: "Tu Nombre"
+date: "YYYY-MM-DD"
+---
+```
+
+Donde:
+- `title`: Es el título oficial del artículo (entre comillas dobles)
+- `author`: Es el nombre del autor o seudónimo (entre comillas dobles)
+- `date`: Es la fecha de creación o última actualización en formato año-mes-día (entre comillas dobles)
+
+### 3. Estructura del Artículo
 
 #### Título Principal
 
-El primer encabezado de nivel 1 (`#`) será el título visible del artículo en la página web:
+Después de los metadatos, el primer encabezado de nivel 1 (`#`) será el título visible del artículo en la página web:
 
 ```markdown
 # Título del Artículo
@@ -99,9 +116,15 @@ Utiliza estos elementos para mejorar la legibilidad de tu artículo:
   3. Tercer paso
   ```
 
-### 3. Ejemplo de Estructura Completa
+### 4. Ejemplo de Estructura Completa
 
 ```markdown
+---
+title: "Nombre del Tema"
+author: "Nombre del Autor"
+date: "2024-05-15"
+---
+
 # Nombre del Tema
 
 Introducción general sobre el **tema** con los conceptos más importantes en **negrita**.
