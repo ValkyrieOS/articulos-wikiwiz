@@ -24,7 +24,7 @@ Ethernet divide los datos en unidades llamadas **tramas**, que contienen:
 
 Existen diversas variantes de Ethernet según la velocidad y el medio de transmisión:
 
-- **10BASE-T**: Utiliza cable de par trenzado y ofrece velocidades de hasta 10 Mbps. 
+- **10BASE-T**: Utiliza cable de par trenzado y ofrece velocidades de hasta 10 Mbps.
 - **100BASE-TX**: También conocido como Fast Ethernet, alcanza velocidades de 100 Mbps.
 - **1000BASE-T**: Conocido como Gigabit Ethernet, proporciona velocidades de 1 Gbps.
 
